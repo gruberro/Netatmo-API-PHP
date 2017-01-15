@@ -7,7 +7,7 @@
     "license": "MIT",
     "require": {},
     "autoload": {
-        "files": ["src/Netatmo/autoload.php"]
+        "psr-4": { "Netatmo\\": "src/Netatmo" }
     },
     "extra": {
         "branch-alias": {
